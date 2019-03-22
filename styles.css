@@ -1,24 +1,24 @@
 body {
-    font-family: "Bree Serif", sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 .container, .results {
     width: 400px;
     padding: 10px;
     margin: 50px auto;
-    border: 5px solid #bbffff;
+    border: 5px solid #FA8072;
     border-radius: 20px;
-    background-color: white;
+    background-color: #FFB6C1;
     
     transition: background-color .5s ease-in-out;
     transition: border .2s ease-in-out;
 }
 
 .container:hover {
-    background-color: #eeffff;
-    border-color: #eeffff;
+    background-color: #FF8C00 ;
+    border-color: #FFFF00;
 }
 .results:hover {
-    background-color: #eeffff;
-    border-color: #eeffff;
+    background-color: #FF8C00;
+    border-color: #FFFF00;
 }
